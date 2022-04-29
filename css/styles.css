@@ -1,0 +1,40 @@
+/* body {
+  text-decoration: none;
+} */
+
+.header {
+    background-color: #FFFFFF;
+    list-style-type: none;
+    
+}
+.site-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+}
+.site-logo-part {
+    color: #2196F3;
+}
+.header-nav {
+    list-style-type: none;
+}
+
+.header-nav-links {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+  
+    
+}
+.header-nav-links:hover {
+    color: #2196F3;
+
+}

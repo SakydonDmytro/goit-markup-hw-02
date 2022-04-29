@@ -5,21 +5,32 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<!-- project fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- site head -->
-		<header>
+		<header class="header">
 			<nav>
-				<a lang="en" href="/">WebStudio</a>
-				<ul>
-					<li><a href="./studia.html">Студия</a></li>
-					<li><a href="./portfolio.html">Портфолио</a></li>
-					<li><a href="#">Контакты</a></li>
+				<a lang="en" class="site-logo" href="/">
+					<span class="site-logo-part">Web</span>
+					Studio
+				</a>
+				<ul class="header-nav">
+					<li><a class="header-nav-links" href="./portfolio.html">Портфолио</a></li>
+					<li><a class="header-nav-links" href="#">Контакты</a></li>
+					<li><a class="header-nav-links" href="./studia.html">Студия</a></li>
 				</ul>
 			</nav>
-			<ul>
-				<li><a href="mailto:info@devstudio.com">mailto:info@devstudio.com</a></li>
-				<li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<ul class="header-nav">
+				<li><a class="header-nav-links" href="mailto:info@devstudio.com">mailto:info@devstudio.com</a></li>
+				<li><a class="header-nav-links" href="tel:+380961111111">+38 096 111 11 11</a></li>
 			</ul>
 		</header>
 		<main>
@@ -38,14 +49,14 @@
 				<ul>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-1.jpg" alt="Технокряк" />
+							<img src="./images/portfolio/project-1.jpg" alt="Технокряк" width="370px" />
 							<h2>Технокряк</h2>
 							<p>Веб-сайт</p>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-2.jpg" alt="Постер New Orlean vs Golden Star" />
+							<img src="./images/portfolio/project-2.jpg" alt="Постер New Orlean vs Golden Star" width="370" />
 							<h2>
 								Постер
 								<span lang="en">New Orlean vs Golden Star</span>
@@ -56,7 +67,7 @@
 
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-3.jpg" alt="Ресторан Seafood" />
+							<img src="./images/portfolio/project-3.jpg" alt="Ресторан Seafood" width="370" />
 							<h2>
 								Ресторан
 								<span lang="en">Seafood</span>
@@ -66,7 +77,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-4.jpg" alt="Проект Prime" />
+							<img src="./images/portfolio/project-4.jpg" alt="Проект Prime" width="370" />
 							<h2>
 								Проект
 								<span lang="en">Prime</span>
@@ -76,7 +87,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-5.jpg" alt="Проект Boxes" />
+							<img src="./images/portfolio/project-5.jpg" alt="Проект Boxes" width="370" />
 							<h2>
 								Проект
 								<span lang="en">Boxes</span>
@@ -86,14 +97,14 @@
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-6.jpg" alt="Inspiration has no Borders" />
+							<img src="./images/portfolio/project-6.jpg" alt="Inspiration has no Borders" width="370" />
 							<h2 lang="en">Inspiration has no Borders</h2>
 							<p>Веб-сайт</p>
 						</a>
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-7.jpg" alt="Издание Limited Edition" />
+							<img src="./images/portfolio/project-7.jpg" alt="Издание Limited Edition" width="370" />
 							<h2>
 								Издание
 								<span lang="en">Limited Edition</span>
@@ -103,7 +114,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-8.jpg" alt="Проект LAB" />
+							<img src="./images/portfolio/project-8.jpg" alt="Проект LAB" width="370" />
 							<h2>
 								Проект
 								<span lang="en">LAB</span>
@@ -113,7 +124,7 @@
 					</li>
 					<li>
 						<a href="#">
-							<img src="./images/portfolio/project-9.jpg" alt="Growing Business" />
+							<img src="./images/portfolio/project-9.jpg" alt="Growing Business" width="370" />
 							<h2 lang="en">Growing Business</h2>
 							<p>Приложение</p>
 						</a>
