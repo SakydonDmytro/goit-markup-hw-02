@@ -1,8 +1,14 @@
+/* :root {
+    --main-text-color: #212121;
+} */
+
 body {
-  color:#212121;
+    
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    color:#212121;
 }
 
-.header {
+.head {
     background-color: #FFFFFF;
     list-style-type: none;
     
@@ -19,13 +25,13 @@ body {
 .site-logo-part {
     color: #2196F3;
 }
-.header-nav {
+.navigation {
     list-style-type: none;
 }
 
-.header-nav-links {
+.navigation-links {
     text-decoration: none;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -35,7 +41,9 @@ body {
   
     
 }
-.header-nav-links:hover {
+.navigation-links:hover,
+.navigation-links:focus
+ {
     color: #2196F3;
 
 }
@@ -43,7 +51,7 @@ body {
     background-color: #2F303A;
 }
 .heroic-header {
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -58,7 +66,7 @@ body {
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -72,14 +80,14 @@ body {
 .feauters {
     background-color: #E5E5E5;
 }
-.feauters-header {
+.feauters-head {
     visibility: hidden;
 }
 .feauters-list {
     list-style-type: none;
 }
 .feauters-chapters {
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -89,7 +97,7 @@ body {
     color: #212121;
 }
 .feauters-text {
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -100,8 +108,8 @@ body {
 .activities {
     background-color: #E5E5E5;
 }
-.activities-header {
-    font-family: 'Roboto';
+.activities-head {
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -116,8 +124,8 @@ body {
 .team {
     background-color: #F5F4FA;
 }
-.team-header {
-    font-family: 'Roboto';
+.team-head {
+
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -137,7 +145,7 @@ body {
     border-radius: 0px 0px 4px 4px;
 }
 .team-member-name {
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -147,7 +155,7 @@ body {
     color: #212121;
 }
 .team-member-position {
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -156,15 +164,15 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
-.footer {
+.bottom {
     background-color: #2F303A;;
 }
 .site-logo-part-2 {
     color: #FFFFFF;
 }
-.footer-address {
+.bottom-address {
     font-style: normal;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -172,11 +180,11 @@ body {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-.footer-list {
+.bottom-list {
     list-style-type: none;
 }
-.footer-nav-links {
-    font-family: 'Roboto';
+.bottom-nav-links {
+
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -184,13 +192,14 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-nav-links:hover {
+.bottom-nav-links:hover,
+.bottom-nav-links:focus{
     color: #2196F3;
 }
 .portfolio  {
     background-color: #E5E5E5;
 }
-.portfolio-header {
+.portfolio-head {
     visibility: hidden;
 }
 .portfolio-button-list {
@@ -199,7 +208,7 @@ body {
 .filter-button {
     background-color: #F5F4FA;
     border-radius: 4px;
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -207,7 +216,8 @@ body {
     letter-spacing: 0.03em;
     color: #212121;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus{
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -222,8 +232,8 @@ body {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
-.portfolio-item-header {
-    font-family: 'Roboto';
+.portfolio-item-head {
+
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -235,7 +245,7 @@ body {
     text-decoration: none;
 }
 .portfolio-item-class {
-    font-family: 'Roboto';
+
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
